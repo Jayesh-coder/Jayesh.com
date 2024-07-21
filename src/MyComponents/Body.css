@@ -1,0 +1,8 @@
+.body-content {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.body-content.active {
+  opacity: 1;
+}

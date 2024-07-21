@@ -1,0 +1,28 @@
+.loading-screen {
+  background-color: #000; /* Background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+/* You can set a background image with your pixel art animation here */
+.loading-animation {
+  /* Set your pixel art animation image as a background */
+  background-image: url("loading.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px; /* Adjust the width and height as needed */
+  height: 200px;
+  /* Add animation for spinning effect */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

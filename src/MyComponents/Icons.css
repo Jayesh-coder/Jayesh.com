@@ -1,0 +1,25 @@
+.icons-container {
+  display: flex;
+  justify-content: space-between; /* To create equal spacing between icons */
+}
+
+.pixelated-icon {
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s;
+}
+
+.white-icon {
+  filter: invert(1);
+}
+
+.up-animation:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.icon-spacing {
+  margin-right: 10px; /* Adjust the margin to control the space between icons */
+}
